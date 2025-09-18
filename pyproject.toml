@@ -1,0 +1,17 @@
+[project]
+name = "food-recommender"
+version = "0.1.0"
+description = "A simple food recommendation system using Hugging Face embeddings, FAISS vector search, LangChain (future), and Streamlit UI."
+readme = "README.md"
+requires-python = ">=3.12"
+
+license = { text = "MIT" }
+keywords = ["food", "recommendation-system", "huggingface", "langchain", "streamlit", "vector-db"]
+
+dependencies = [
+    "streamlit",
+    "langchain",
+    "huggingface-hub",
+    "sentence-transformers",
+    "faiss-cpu"
+]
